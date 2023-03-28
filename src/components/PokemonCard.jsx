@@ -1,13 +1,13 @@
 
-function PokemonCard() {
-    const pokemon = pokemonList[0]
-    return <figure>
-        <img src={pokemon.imgSrc} alt="???" />
-        <figcaption>{pokemon.name}</figcaption>
-    </figure>
-}
+// function PokemonCard() {
+//     const pokemon = pokemonList[0]
+//     return <figure>
+//         <img src={pokemon.imgSrc} alt="???" />
+//         <figcaption>{pokemon.name}</figcaption>
+//     </figure>
+// }
 
-export default PokemonCard;
+// export default PokemonCard;
 
 const pokemonList = [
 
