@@ -46,5 +46,12 @@
 
 
 .myImg {
-  min-height: 475px;
+  height: 475px;
+  width: 475px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
