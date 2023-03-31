@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 function PokemonCard(props) {
+
     return <figure className='myImg' >
         <img src={props.pokemon.imgSrc} alt="???" />
         <figcaption>{props.pokemon.name}</figcaption>

@@ -7,6 +7,9 @@ import PokemonCard from './components/PokemonCard';
 
 import NavBar from './components/Navbar';
 
+import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
+
 function App() {
   const pokemonList = [
     {
@@ -39,6 +42,14 @@ function App() {
   ];
 
   const [pokemonIndex, setPokemonIndex] = useState(0)
+
+  useLayoutEffect(() => {
+    window.onload = () => {
+      alert('Hello pokémon trainer');
+    };
+  },
+    []
+  )
 
 
   return (

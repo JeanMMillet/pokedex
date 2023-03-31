@@ -4,6 +4,9 @@ import Previous from "../Previous";
 
 function NavBar(props) {
     const { index, setter, list } = props
+    if (list[index].name === "Pikachu") {
+        alert('Pika pikachuuu!')
+    }
 
     return (
         <div id='navbar'>
